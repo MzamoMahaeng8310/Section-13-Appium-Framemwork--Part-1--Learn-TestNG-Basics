@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="59" started-at="2021-04-06T14:41:45 CAT" finished-at="2021-04-06T14:41:45 CAT">
+    <groups>
+      <group name="Connection">
+        <method signature="TestNG_Lecture1.Landscape()[pri:0, instance:TestPackage.TestNG_Lecture1@5a8e6209]" name="Landscape" class="TestPackage.TestNG_Lecture1"/>
+        <method signature="TestNG_Lecture1.Pavement()[pri:0, instance:TestPackage.TestNG_Lecture1@5a8e6209]" name="Pavement" class="TestPackage.TestNG_Lecture1"/>
+      </group> <!-- Connection -->
+      <group name="Smoke">
+        <method signature="TestNG_Lecture1.LampPost()[pri:0, instance:TestPackage.TestNG_Lecture1@5a8e6209]" name="LampPost" class="TestPackage.TestNG_Lecture1"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Default test" duration-ms="59" started-at="2021-04-06T14:41:45 CAT" finished-at="2021-04-06T14:41:45 CAT">
+      <class name="TestPackage.TestNG_Lecture1">
+        <test-method status="PASS" signature="LampPost()[pri:0, instance:TestPackage.TestNG_Lecture1@5a8e6209]" name="LampPost" duration-ms="8" started-at="2021-04-06T14:41:45 CAT" finished-at="2021-04-06T14:41:45 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LampPost -->
+        <test-method status="PASS" signature="AfterMethodExecution()[pri:0, instance:TestPackage.TestNG_Lecture1@5a8e6209]" name="AfterMethodExecution" is-config="true" duration-ms="3" started-at="2021-04-06T14:41:45 CAT" finished-at="2021-04-06T14:41:45 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodExecution -->
+        <test-method status="PASS" signature="Landscape()[pri:0, instance:TestPackage.TestNG_Lecture1@5a8e6209]" name="Landscape" duration-ms="1" started-at="2021-04-06T14:41:45 CAT" finished-at="2021-04-06T14:41:45 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Landscape -->
+        <test-method status="PASS" signature="AfterMethodExecution()[pri:0, instance:TestPackage.TestNG_Lecture1@5a8e6209]" name="AfterMethodExecution" is-config="true" duration-ms="0" started-at="2021-04-06T14:41:45 CAT" finished-at="2021-04-06T14:41:45 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodExecution -->
+        <test-method status="PASS" signature="Pavement()[pri:0, instance:TestPackage.TestNG_Lecture1@5a8e6209]" name="Pavement" duration-ms="1" started-at="2021-04-06T14:41:45 CAT" finished-at="2021-04-06T14:41:45 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pavement -->
+        <test-method status="PASS" signature="AfterMethodExecution()[pri:0, instance:TestPackage.TestNG_Lecture1@5a8e6209]" name="AfterMethodExecution" is-config="true" duration-ms="0" started-at="2021-04-06T14:41:45 CAT" finished-at="2021-04-06T14:41:45 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodExecution -->
+        <test-method status="PASS" signature="House()[pri:0, instance:TestPackage.TestNG_Lecture1@5a8e6209]" name="House" duration-ms="1" started-at="2021-04-06T14:41:45 CAT" depends-on-methods="TestPackage.TestNG_Lecture1.Landscape, TestPackage.TestNG_Lecture1.Pavement" finished-at="2021-04-06T14:41:45 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- House -->
+        <test-method status="PASS" signature="AfterMethodExecution()[pri:0, instance:TestPackage.TestNG_Lecture1@5a8e6209]" name="AfterMethodExecution" is-config="true" duration-ms="1" started-at="2021-04-06T14:41:45 CAT" finished-at="2021-04-06T14:41:45 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodExecution -->
+      </class> <!-- TestPackage.TestNG_Lecture1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

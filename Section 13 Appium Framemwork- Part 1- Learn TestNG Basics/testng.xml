@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Improvements">
+		<classes>
+			<class name="TestPackage.TestNG_Lecture2" />
+			<methods>
+				<exclude name="Mar.*" /> <!-- So regex aka regular expression to include all the test cases start 
+					with Mar. -->
+			</methods>
+			<class name="TestPackage.TestNG_Lecture3" />
+			<methods>
+				<exclude name="bathroom" />
+			</methods> <!-- To indent the xml correctly press Ctrl+A (all) then Ctrl+I to indent -->
+		</classes>
+	</test> <!-- TestSuite -->
+	<test name="Renovation">
+		<classes>
+			<class name="TestPackage.TestNG_Lecture1" />
+			<methods>
+				<exclude name="La.*" /> <!-- This is to skip a method in class include <methods> </methods> -->
+			</methods>
+		</classes>
+	</test>
+</suite> <!-- Suite -->

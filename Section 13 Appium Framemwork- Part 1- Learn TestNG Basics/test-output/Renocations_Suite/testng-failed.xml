@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Renocations_Suite]">
+  <test thread-count="5" name="Renovations(failed)">
+    <classes>
+      <class name="TestPackage.TestNG_Lecture3">
+        <methods>
+          <include name="bathroom"/>
+        </methods>
+      </class> <!-- TestPackage.TestNG_Lecture3 -->
+      <class name="TestPackage.TestNg_Lecture2">
+        <methods>
+          <include name="Maxidoor"/>
+        </methods>
+      </class> <!-- TestPackage.TestNg_Lecture2 -->
+    </classes>
+  </test> <!-- Renovations(failed) -->
+</suite> <!-- Failed suite [Renocations_Suite] -->

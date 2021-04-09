@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="6" guice-stage="DEVELOPMENT" name="Failed suite [ListnersNG]" parallel="tests">
+  <listeners>
+    <listener class-name="TestPackage.Listeners"/>
+  </listeners>
+  <test thread-count="6" name="Parallel(failed)" parallel="tests">
+    <classes>
+      <class name="TestPackage.ListenerParalell">
+        <methods>
+          <include name="HelpMenu"/>
+          <include name="Subscriptions"/>
+          <include name="Users"/>
+        </methods>
+      </class> <!-- TestPackage.ListenerParalell -->
+    </classes>
+  </test> <!-- Parallel(failed) -->
+  <test thread-count="6" name="ListnersExecute(failed)" parallel="classes">
+    <classes>
+      <class name="TestPackage.ListernerExecute">
+        <methods>
+          <include name="SourceCodeFalure"/>
+          <include name="SourceCodeFalureE"/>
+          <include name="SourceCodeFalureC"/>
+          <include name="SourceCodeFalureB"/>
+        </methods>
+      </class> <!-- TestPackage.ListernerExecute -->
+    </classes>
+  </test> <!-- ListnersExecute(failed) -->
+</suite> <!-- Failed suite [ListnersNG] -->
